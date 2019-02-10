@@ -14,8 +14,6 @@ def get_urls(filename='partner_urls.txt') -> list:
             urls.append(url)
     return urls
 
-    # return [f'http://{file}' if 'http' not in file else file for file in _read_file(filename)]
-
 # gets a list of the partner keywords
 def get_kws(filename='partner_kw.txt'):
     return _read_file(filename)
@@ -25,38 +23,42 @@ def _read_file(filename):
     with open(filename, 'r') as file:
         return [kw.strip() for kw in file.readlines()]
 
-# check if a list of strings (kws) is a substring of kw
-def check_kw(kw, logger=None):
+# check to see if any of the partner words are in URL
+def partner_match(url, logger=None):
 
-    # get keywords, stop_words
-    kws = get_kws()
-    stop = get_kws(filename='stop_kw.txt')
+    if not url: return False
 
-    # empty link
-    if not kw: return False
-
-    # the elegant solution is
-    # make sure the link has a keyword and not a stop word in it
+    # the elegant solution is this
     if not logger:
-        return any(k in kw for k in kws) and not any(k in kw for k in stop)
+        return any(kw in url for kw in get_kws())
 
     # but for logging purposes we will be verbose
-
-    # make sure there is no stop word in URL
-    for stop_word in stop:
-        if stop_word in kw:
-            logger.info(f'>> Found {stop_word} in url: {kw}')
-            return False
-
-    # check to see if there is a keyword in URL
-    for keyword in kws:
-        if keyword in kw:
-            logger.info(f'>> Found {keyword} in url: {kw}')
+    kws = get_kws()
+    for kw in kws:
+        if kw in url:
+            logger.info(f'✅ {kw} was found in {url}.')
             return True
 
-    # no stop word, but no keyword, no good
-    logger.info(f'>>No keyword found in url: {kw}')
-    return False
+# check to see if any of the stop words are in URL
+def stop_word_match(url, logger=None):
+
+    if not url: return False
+
+    # the elegant solution is this
+    if not logger:
+        return any(kw in url for kw in get_kws('stop_kw.txt'))
+
+    # but for logging purposes we will be verbose
+    kws = get_kws('stop_kw.txt')
+    for kw in kws:
+        if kw in url:
+            logger.info(f'🛑 {kw} was encountered in {url}.')
+            return True
+
+
+# check to make sure we have a partner match and no stop words
+def valid_partner_url(url, logger=None):
+    return partner_match(url, logger) and not stop_word_match(url, logger)
 
 # extracts the hostname of a given website
 # i.e. stackoverflow.com/questions/12345 -> www.stackoverflow.com
@@ -75,10 +77,11 @@ def get_hostname(url):
 # base is the hostname of the site where the partner was found i.e. foodpantry.org
 # url is the name of the partner site link i.e. soupkitchen.org (which was found in base)
 # ensures no stop words are in the partner link (no fb, ig, twitter, yt, etc..)
-def valid_partner(base, url):
-    if get_hostname(base) == get_hostname(url):
-        return False
+def valid_partner(base, url, logger=None):
 
-    # any will return true if any of the stop words are contained in URL
-    return not any(kw in url for kw in get_kws('stop_kw.txt'))
 
+
+    return (get_hostname(base) != get_hostname(url) and
+            not stop_word_match(url, logger) and
+            'tel' not in url and
+            'jpg' not in url)

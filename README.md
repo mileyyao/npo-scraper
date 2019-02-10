@@ -1,7 +1,7 @@
 ## NPO Partner Web Scraper
 
 To execute the program, run the command  
-```scrapy runspider main.py --logfile=log.txt```
+```scrapy runspider main.py```
 
 This program attempts to find all possible partner non-profit organizations given a set of "seed URLs".
 These URLs will serve as input for the program.
@@ -13,10 +13,9 @@ Initial development utilizes [scrapy](https://scrapy.org) as the main crawling e
 Output is currently in JSON format, with hopes to expose an API that will return neighbors for a 
 set of URLs.  
 
-**Current state**: JSON output contains a list of keys corresponding to the hostname of the websites
-provided in the seed list. The value is another dictionary whose values represent "breadcrumbs" and 
-partners. Breadcrumbs are a list of links on how the scraper got to the partner page. Partners are
-potential matches.
+**Current state**: Scraper will list all links that follow a valid "partner path" as partners. 
+Work still needs to be done on scraping non ``<a>`` style partners, i.e. ``<ul>`` or 
+``<div>>`` items.
 
 ```json
 {
@@ -50,10 +49,12 @@ potential matches.
 }
 ```
 
+A history will be kept in the local directory under ``debug/``.
+
 **Note:** You may want to adjust the ``DOWNLOAD_TIMEOUT`` setting in ``main.py``. It is currently set to
 5 seconds (default is 180) for quicker debugging.
 
-You can prepend ``--`` to any line in the partner_urls.txt file to exclude it from being read in.
+You can prepend ``--`` to any line in the seed file to exclude it from being read in.
 
 ``main.py`` - crawling logic  
 ``utils.py`` - data cleaning and utilities  

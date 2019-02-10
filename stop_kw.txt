@@ -4,4 +4,12 @@ reddit
 instagram
 twitter
 craigslist
-youtube
+youtu
+dnsrsearch
+google
+pinterest
+mailto
+flickr
+adobe
+javascript
+wordpress
