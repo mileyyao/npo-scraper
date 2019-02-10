@@ -1,3 +1,4 @@
+from urllib.parse import urlsplit
 
 # gets a list of the urls to crawl initially
 # -- are prepended to links to ignore
@@ -56,3 +57,28 @@ def check_kw(kw, logger=None):
     # no stop word, but no keyword, no good
     logger.info(f'>>No keyword found in url: {kw}')
     return False
+
+# extracts the hostname of a given website
+# i.e. stackoverflow.com/questions/12345 -> www.stackoverflow.com
+def get_hostname(url):
+    hostname =  urlsplit(url).hostname
+
+    # already in good form
+    if not hostname:
+        return url
+
+    if 'www' not in hostname:
+        return f'www.{hostname}'
+    return hostname
+
+# validates a given url to ensure it is a valid partner
+# base is the hostname of the site where the partner was found i.e. foodpantry.org
+# url is the name of the partner site link i.e. soupkitchen.org (which was found in base)
+# ensures no stop words are in the partner link (no fb, ig, twitter, yt, etc..)
+def valid_partner(base, url):
+    if get_hostname(base) == get_hostname(url):
+        return False
+
+    # any will return true if any of the stop words are contained in URL
+    return not any(kw in url for kw in get_kws('stop_kw.txt'))
+
