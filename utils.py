@@ -8,11 +8,14 @@ def get_urls(filename='partner_urls.txt') -> list:
         if '--' == url[:2]:
             print(f'Ignoring {url}')
             continue
-        if 'http' not in url:
-            urls.append(f'http://{url}')
-        else:
-            urls.append(url)
+        urls.append(clean_url(url))
     return urls
+
+# adds protocol to links
+def clean_url(url):
+    if 'http' not in url:
+        return f'http://{url}'
+    return url
 
 # gets a list of the partner keywords
 def get_kws(filename='partner_kw.txt'):

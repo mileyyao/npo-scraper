@@ -1,0 +1,3450 @@
+{
+    "www.securews.bsneny.com": {
+        "url": "www.securews.bsneny.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.key.com": {
+        "url": "www.key.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.wamc.org": {
+        "url": "www.wamc.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.unitedwaygcr.org": {
+        "url": "www.unitedwaygcr.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.anthem.foundation": {
+        "url": "www.anthem.foundation",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "220 Virginia Avenue Indianapolis, IN 46204",
+                "full_street": "220 Virginia Avenue",
+                "street_number": "220",
+                "street_name": "Virginia",
+                "street_type": "Avenue",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Indianapolis",
+                "region1": "IN",
+                "postal_code": "46204",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.yelp.com": {
+        "url": "www.yelp.com",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "1 Embarcadero Ctr San Francisco, CA 94111",
+                "full_street": "1 Embarcadero Ct",
+                "street_number": "1",
+                "street_name": "Embarcadero",
+                "street_type": "Ct",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "r San Francisco",
+                "region1": "CA",
+                "postal_code": "94111",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.hannaford.com": {
+        "url": "www.hannaford.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.seymourfoxfoundation.org": {
+        "url": "www.seymourfoxfoundation.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "233 North Greenbush Road North Greenbush, New York 12180",
+                "full_street": "233 North Greenbush Road North",
+                "street_number": "233",
+                "street_name": "North Greenbush",
+                "street_type": "Road",
+                "route_id": null,
+                "post_direction": "North",
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Greenbush",
+                "region1": "New York",
+                "postal_code": "12180",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.timesunion.com": {
+        "url": "www.timesunion.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.faganasset.com": {
+        "url": "www.faganasset.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.arnoff.com": {
+        "url": "www.arnoff.com",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "10 Stonebreak Road, Suite 1 Malta, NY 12020",
+                "full_street": "10 Stonebreak Road, Suite 1",
+                "street_number": "10",
+                "street_name": "Stonebreak",
+                "street_type": "Road",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": "Suite 1",
+                "city": "Malta",
+                "region1": "NY",
+                "postal_code": "12020",
+                "country_id": "US"
+            },
+            {
+                "full_address": "10 Stonebreak Road Malta, NY 12020",
+                "full_street": "10 Stonebreak Road",
+                "street_number": "10",
+                "street_name": "Stonebreak",
+                "street_type": "Road",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Malta",
+                "region1": "NY",
+                "postal_code": "12020",
+                "country_id": "US"
+            },
+            {
+                "full_address": "5979 North Elm Avenue Millerton, NY 12546",
+                "full_street": "5979 North Elm Avenue",
+                "street_number": "5979",
+                "street_name": "North Elm",
+                "street_type": "Avenue",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Millerton",
+                "region1": "NY",
+                "postal_code": "12546",
+                "country_id": "US"
+            },
+            {
+                "full_address": "351 Millerton Road Lakeville, CT 06039",
+                "full_street": "351 Millerton Road",
+                "street_number": "351",
+                "street_name": "Millerton",
+                "street_type": "Road",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Lakeville",
+                "region1": "CT",
+                "postal_code": "06039",
+                "country_id": "US"
+            },
+            {
+                "full_address": "3620 So. Federal Highway Ft. Pierce, FL 34982",
+                "full_street": "3620 So. Federal Highway",
+                "street_number": "3620",
+                "street_name": "So. Federal",
+                "street_type": "Highway",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Ft. Pierce",
+                "region1": "FL",
+                "postal_code": "34982",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.hwfc.com": {
+        "url": "www.hwfc.com",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "one 100 Watervliet AveAlbany, NY 12206",
+                "full_street": "one 100 Watervliet Ave",
+                "street_number": "one",
+                "street_name": "100 Watervliet",
+                "street_type": "Ave",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Albany",
+                "region1": "NY",
+                "postal_code": "12206",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.sefcu.com": {
+        "url": "www.sefcu.com",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "700 Patroon Creek Blvd. Albany, NY 12206",
+                "full_street": "700 Patroon Creek Blvd.",
+                "street_number": "700",
+                "street_name": "Patroon Creek",
+                "street_type": "Blvd.",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Albany",
+                "region1": "NY",
+                "postal_code": "12206",
+                "country_id": "US"
+            },
+            {
+                "full_address": "3460 Vestal Parkway East Vestal, NY 13850",
+                "full_street": "3460 Vestal Parkway East",
+                "street_number": "3460",
+                "street_name": "Vestal",
+                "street_type": "Parkway",
+                "route_id": null,
+                "post_direction": "East",
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Vestal",
+                "region1": "NY",
+                "postal_code": "13850",
+                "country_id": "US"
+            },
+            {
+                "full_address": "8086 Brewerton Road Cicero, NY 13039",
+                "full_street": "8086 Brewerton Road",
+                "street_number": "8086",
+                "street_name": "Brewerton",
+                "street_type": "Road",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Cicero",
+                "region1": "NY",
+                "postal_code": "13039",
+                "country_id": "US"
+            },
+            {
+                "full_address": "3155 Niagara Falls Blvd. Amherst, NY 14228",
+                "full_street": "3155 Niagara Falls Blvd.",
+                "street_number": "3155",
+                "street_name": "Niagara Falls",
+                "street_type": "Blvd.",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Amherst",
+                "region1": "NY",
+                "postal_code": "14228",
+                "country_id": "US"
+            },
+            {
+                "full_address": "469 State Street Schenectady, NY 12305",
+                "full_street": "469 State Street",
+                "street_number": "469",
+                "street_name": "State",
+                "street_type": "Street",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Schenectady",
+                "region1": "NY",
+                "postal_code": "12305",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.csx.com": {
+        "url": "www.csx.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.walmart.com": {
+        "url": "www.walmart.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.hmrrc.com": {
+        "url": "www.hmrrc.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.rosenblumcompanies.com": {
+        "url": "www.rosenblumcompanies.com",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "300 Great Oaks BoulevardSuite 310, Albany, NY 12203",
+                "full_street": "300 Great Oaks BoulevardSuite 310",
+                "street_number": "300",
+                "street_name": "Great Oaks",
+                "street_type": "Boulevard",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": "Suite 310",
+                "city": "Albany",
+                "region1": "NY",
+                "postal_code": "12203",
+                "country_id": "US"
+            },
+            {
+                "full_address": "300 Great Oaks Blvd, Suite 310, Albany, NY 12203",
+                "full_street": "300 Great Oaks Blvd, Suite 310",
+                "street_number": "300",
+                "street_name": "Great Oaks",
+                "street_type": "Blvd",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": "Suite 310",
+                "city": "Albany",
+                "region1": "NY",
+                "postal_code": "12203",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.tbccpa.com": {
+        "url": "www.tbccpa.com",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "7 Washington Square, Albany, NY 12205",
+                "full_street": "7 Washington Square",
+                "street_number": "7",
+                "street_name": "Washington",
+                "street_type": "Square",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Albany",
+                "region1": "NY",
+                "postal_code": "12205",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.stewartsshops.com": {
+        "url": "www.stewartsshops.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.wholefoodsmarket.com": {
+        "url": "www.wholefoodsmarket.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.capitalregioncanstruction.com": {
+        "url": "www.capitalregioncanstruction.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.rmhcofalbany.org": {
+        "url": "www.rmhcofalbany.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.conservationfund.org": {
+        "url": "www.conservationfund.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "1655 N. Fort Myer Drive Suite 1300 Arlington, Virginia 22209",
+                "full_street": "1655 N. Fort Myer Drive Suite 1300",
+                "street_number": "1655",
+                "street_name": "N. Fort Myer",
+                "street_type": "Drive",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": "Suite 1300",
+                "city": "Arlington",
+                "region1": "Virginia",
+                "postal_code": "22209",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.colescollision.com": {
+        "url": "www.colescollision.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.swp.mvphealthcare.com": {
+        "url": "www.swp.mvphealthcare.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.cdphp.com": {
+        "url": "www.cdphp.com",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "90 days ago CDPHP Insights Member Drive to Benefit YWCA",
+                "full_street": "90 days ago CDPHP Insights Member Drive",
+                "street_number": "90",
+                "street_name": "days ago CDPHP Insights Member",
+                "street_type": "Drive",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "to Benefit YW",
+                "region1": "CA",
+                "postal_code": null,
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.eypae.com": {
+        "url": "www.eypae.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.aowassoc.com": {
+        "url": "www.aowassoc.com",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "30 Essex Street Albany, New York 12206",
+                "full_street": "30 Essex Street",
+                "street_number": "30",
+                "street_name": "Essex",
+                "street_type": "Street",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Albany",
+                "region1": "New York",
+                "postal_code": "12206",
+                "country_id": "US"
+            },
+            {
+                "full_address": "30 Essex Street, Albany, NY 12206",
+                "full_street": "30 Essex Street",
+                "street_number": "30",
+                "street_name": "Essex",
+                "street_type": "Street",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Albany",
+                "region1": "NY",
+                "postal_code": "12206",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.cfgcr.org": {
+        "url": "www.cfgcr.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.citymission.com": {
+        "url": "www.citymission.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.es11.com": {
+        "url": "www.es11.com",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "8 Stanley Circle, Suite #8Latham, NY 12110",
+                "full_street": "8 Stanley Circle, Suite #8Lat",
+                "street_number": "8",
+                "street_name": "Stanley",
+                "street_type": "Circle",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": "Suite #8Lat",
+                "city": "ham",
+                "region1": "NY",
+                "postal_code": "12110",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.cdcccc.doubleknot.com": {
+        "url": "www.cdcccc.doubleknot.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.councilmember.gr8.com": {
+        "url": "www.councilmember.gr8.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.app.getresponse.com": {
+        "url": "www.app.getresponse.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.ocfs.ny.gov": {
+        "url": "www.ocfs.ny.gov",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.identogo.com": {
+        "url": "www.identogo.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.ocfs.state.ny.us": {
+        "url": "www.ocfs.state.ny.us",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.childcareaware.org": {
+        "url": "www.childcareaware.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "424-2246 1515 N. Courthouse Rd. 2nd Floor Arlington, VA 22201",
+                "full_street": "424-2246 1515 N. Courthouse Rd. 2nd Floor",
+                "street_number": "424-2246",
+                "street_name": "1515 N. Courthouse",
+                "street_type": "Rd.",
+                "route_id": null,
+                "post_direction": null,
+                "floor": "2nd Floor",
+                "building_id": null,
+                "occupancy": null,
+                "city": "Arlington",
+                "region1": "VA",
+                "postal_code": "22201",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.bigelowcorners.org": {
+        "url": "www.bigelowcorners.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.scapny.org": {
+        "url": "www.scapny.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "374-9190 913 Albany Street, Schenectady, NY 12307",
+                "full_street": "374-9190 913 Albany Street",
+                "street_number": "374-9190",
+                "street_name": "913 Albany",
+                "street_type": "Street",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Schenectady",
+                "region1": "NY",
+                "postal_code": "12307",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.northernrivers.org": {
+        "url": "www.northernrivers.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "60 ACADEMY ROAD, ALBANY, NY 12208",
+                "full_street": "60 ACADEMY ROAD",
+                "street_number": "60",
+                "street_name": "ACADEMY",
+                "street_type": "ROAD",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "ALBANY",
+                "region1": "NY",
+                "postal_code": "12208",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.schenectady.k12.ny.us": {
+        "url": "www.schenectady.k12.ny.us",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "and InterventionsPerformance PlusSRI AssessmentSTAR",
+                "full_street": "and InterventionsPerformance Pl",
+                "street_number": "and",
+                "street_name": "InterventionsPerformance",
+                "street_type": "Pl",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "usSRI AssessmentST",
+                "region1": "AR",
+                "postal_code": null,
+                "country_id": "US"
+            },
+            {
+                "full_address": "108 Education Drive, Schenectady, NY 12303",
+                "full_street": "108 Education Drive",
+                "street_number": "108",
+                "street_name": "Education",
+                "street_type": "Drive",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Schenectady",
+                "region1": "NY",
+                "postal_code": "12303",
+                "country_id": "US"
+            },
+            {
+                "full_address": "and Interventions Performance PlusSRI AssessmentSTAR",
+                "full_street": "and Interventions Performance Pl",
+                "street_number": "and",
+                "street_name": "Interventions Performance",
+                "street_type": "Pl",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "usSRI AssessmentST",
+                "region1": "AR",
+                "postal_code": null,
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.schenectadyfoundation.org": {
+        "url": "www.schenectadyfoundation.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.albanypromise.org": {
+        "url": "www.albanypromise.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.albany.edu": {
+        "url": "www.albany.edu",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "1400 Washington Avenue Albany, NY 12222",
+                "full_street": "1400 Washington Avenue",
+                "street_number": "1400",
+                "street_name": "Washington",
+                "street_type": "Avenue",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Albany",
+                "region1": "NY",
+                "postal_code": "12222",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.equinoxinc.networkforgood.com": {
+        "url": "www.equinoxinc.networkforgood.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.schenectadymetroplex.com": {
+        "url": "www.schenectadymetroplex.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.mycivilservice.schenectadycounty.com": {
+        "url": "www.mycivilservice.schenectadycounty.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.landrecords.schenectadycounty.com": {
+        "url": "www.landrecords.schenectadycounty.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.zimbra.schenectadycounty.com": {
+        "url": "www.zimbra.schenectadycounty.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.health.data.ny.gov": {
+        "url": "www.health.data.ny.gov",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.schenectadyco.permits.basgov.com": {
+        "url": "www.schenectadyco.permits.basgov.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.nycon.org": {
+        "url": "www.nycon.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.bethesdahouseschenectady.org": {
+        "url": "www.bethesdahouseschenectady.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "834 State Street Schenectady, NY 12307",
+                "full_street": "834 State Street",
+                "street_number": "834",
+                "street_name": "State",
+                "street_type": "Street",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Schenectady",
+                "region1": "NY",
+                "postal_code": "12307",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.cceschenectady.org": {
+        "url": "www.cceschenectady.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.sicm.us": {
+        "url": "www.sicm.us",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "839 Albany Street Schenectady, NY 12307",
+                "full_street": "839 Albany Street",
+                "street_number": "839",
+                "street_name": "Albany",
+                "street_type": "Street",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Schenectady",
+                "region1": "NY",
+                "postal_code": "12307",
+                "country_id": "US"
+            },
+            {
+                "full_address": "1055 Wendell Avenue Schenectady, NY, 12308",
+                "full_street": "1055 Wendell Avenue",
+                "street_number": "1055",
+                "street_name": "Wendell",
+                "street_type": "Avenue",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Schenectady",
+                "region1": "NY",
+                "postal_code": "12308",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.ellismedicine.org": {
+        "url": "www.ellismedicine.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "1101 Nott Street Schenectady, NY 12308",
+                "full_street": "1101 Nott Street",
+                "street_number": "1101",
+                "street_name": "Nott",
+                "street_type": "Street",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Schenectady",
+                "region1": "NY",
+                "postal_code": "12308",
+                "country_id": "US"
+            },
+            {
+                "full_address": "103 Sitterly Road Clifton Park, NY 12065",
+                "full_street": "103 Sitterly Road",
+                "street_number": "103",
+                "street_name": "Sitterly",
+                "street_type": "Road",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Clifton Park",
+                "region1": "NY",
+                "postal_code": "12065",
+                "country_id": "US"
+            },
+            {
+                "full_address": "600 McClellan Street Schenectady, NY 12304",
+                "full_street": "600 McClellan Street",
+                "street_number": "600",
+                "street_name": "McClellan",
+                "street_type": "Street",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Schenectady",
+                "region1": "NY",
+                "postal_code": "12304",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.homesmartny.org": {
+        "url": "www.homesmartny.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.homeownershipstandards.com": {
+        "url": "www.homeownershipstandards.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.nyserda.ny.gov": {
+        "url": "www.nyserda.ny.gov",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "862-1091 17 Columbia Circle Albany, NY 12203-6399",
+                "full_street": "862-1091 17 Columbia Circle",
+                "street_number": "862-1091",
+                "street_name": "17 Columbia",
+                "street_type": "Circle",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Albany",
+                "region1": "NY",
+                "postal_code": "12203-6399",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.unitedtenantsalbany.org": {
+        "url": "www.unitedtenantsalbany.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "255 Orange Street, suite 104, Albany, NY, 12210",
+                "full_street": "255 Orange Street, suite 104",
+                "street_number": "255",
+                "street_name": "Orange",
+                "street_type": "Street",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": "suite 104",
+                "city": "Albany",
+                "region1": "NY",
+                "postal_code": "12210",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.albanyclt.com": {
+        "url": "www.albanyclt.com",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "290 Mountain Street Albany, NY 12209",
+                "full_street": "290 Mountain Street",
+                "street_number": "290",
+                "street_name": "Mountain",
+                "street_type": "Street",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Albany",
+                "region1": "NY",
+                "postal_code": "12209",
+                "country_id": "US"
+            },
+            {
+                "full_address": "255 Orange StreetAlbany, NY 12210",
+                "full_street": "255 Orange Street",
+                "street_number": "255",
+                "street_name": "Orange",
+                "street_type": "Street",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Albany",
+                "region1": "NY",
+                "postal_code": "12210",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.cdta.org": {
+        "url": "www.cdta.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "1 Commerce Plaza Albany, NY",
+                "full_street": "1 Commerce Pl",
+                "street_number": "1",
+                "street_name": "Commerce",
+                "street_type": "Pl",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "aza Albany",
+                "region1": "NY",
+                "postal_code": null,
+                "country_id": "US"
+            },
+            {
+                "full_address": "110 Watervliet Avenue, Albany, New York 12206",
+                "full_street": "110 Watervliet Avenue",
+                "street_number": "110",
+                "street_name": "Watervliet",
+                "street_type": "Avenue",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Albany",
+                "region1": "New York",
+                "postal_code": "12206",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.empirejustice.org": {
+        "url": "www.empirejustice.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.acrha.org": {
+        "url": "www.acrha.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.triponline.org": {
+        "url": "www.triponline.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "415 River StreetTroy, NY 12180",
+                "full_street": "415 River Street",
+                "street_number": "415",
+                "street_name": "River",
+                "street_type": "Street",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Troy",
+                "region1": "NY",
+                "postal_code": "12180",
+                "country_id": "US"
+            },
+            {
+                "full_address": "409 River StreetTroy, NY 12180",
+                "full_street": "409 River Street",
+                "street_number": "409",
+                "street_name": "River",
+                "street_type": "Street",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Troy",
+                "region1": "NY",
+                "postal_code": "12180",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.dhcr.state.ny.us": {
+        "url": "www.dhcr.state.ny.us",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.better-neighborhoods.org": {
+        "url": "www.better-neighborhoods.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "372-6469 120 Emmons Street, Schenectady, NY 12304",
+                "full_street": "372-6469 120 Emmons Street",
+                "street_number": "372-6469",
+                "street_name": "120 Emmons",
+                "street_type": "Street",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Schenectady",
+                "region1": "NY",
+                "postal_code": "12304",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.mycommunityloanfund.org": {
+        "url": "www.mycommunityloanfund.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.lasnny.org": {
+        "url": "www.lasnny.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "1 Kimball Street Amsterdam, New York 12010",
+                "full_street": "1 Kimball Street",
+                "street_number": "1",
+                "street_name": "Kimball",
+                "street_type": "Street",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Amsterdam",
+                "region1": "New York",
+                "postal_code": "12010",
+                "country_id": "US"
+            },
+            {
+                "full_address": "95 Central Avenue Albany, New York 12206",
+                "full_street": "95 Central Avenue",
+                "street_number": "95",
+                "street_name": "Central",
+                "street_type": "Avenue",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Albany",
+                "region1": "New York",
+                "postal_code": "12206",
+                "country_id": "US"
+            },
+            {
+                "full_address": "100 Court Street, P.O. Box 989 Plattsburgh, New York 12901",
+                "full_street": "100 Court Street, P.O. Box 989",
+                "street_number": "100",
+                "street_name": "Court",
+                "street_type": "Street",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Plattsburgh",
+                "region1": "New York",
+                "postal_code": "12901",
+                "country_id": "US"
+            },
+            {
+                "full_address": "40 New Street Saratoga Springs, New York 12866",
+                "full_street": "40 New Street",
+                "street_number": "40",
+                "street_name": "New",
+                "street_type": "Street",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Saratoga Springs",
+                "region1": "New York",
+                "postal_code": "12866",
+                "country_id": "US"
+            },
+            {
+                "full_address": "17 Hodskin Street Canton, New York 13617",
+                "full_street": "17 Hodskin Street",
+                "street_number": "17",
+                "street_name": "Hodskin",
+                "street_type": "Street",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Canton",
+                "region1": "New York",
+                "postal_code": "13617",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.legalproject.org": {
+        "url": "www.legalproject.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www1.dhcr.state.ny.us": {
+        "url": "www1.dhcr.state.ny.us",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.ipower.com": {
+        "url": "www.ipower.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.uscripayments.org": {
+        "url": "www.uscripayments.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "AND IMMIGRANTS 2231 Crystal Drive, Suite 350 Arlington, VA 22202-3711",
+                "full_street": "AND IMMIGRANTS 2231 Crystal Drive, Suite 350",
+                "street_number": "AND",
+                "street_name": "IMMIGRANTS 2231 Crystal",
+                "street_type": "Drive",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": "Suite 350",
+                "city": "Arlington",
+                "region1": "VA",
+                "postal_code": "22202-3711",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.give.org": {
+        "url": "www.give.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.guidestar.org": {
+        "url": "www.guidestar.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.interaction.org": {
+        "url": "www.interaction.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.cfcnca.org": {
+        "url": "www.cfcnca.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.pskrpi.com": {
+        "url": "www.pskrpi.com",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "316 Congress St. Troy, NY 12180 USA",
+                "full_street": "316 Congress St.",
+                "street_number": "316",
+                "street_name": "Congress",
+                "street_type": "St.",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Troy",
+                "region1": "NY",
+                "postal_code": "12180",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.pawlingstatue.org": {
+        "url": "www.pawlingstatue.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.troylook.com": {
+        "url": "www.troylook.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.paypal.com": {
+        "url": "www.paypal.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.nw.org": {
+        "url": "www.nw.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.neighborhoodworks.org": {
+        "url": "www.neighborhoodworks.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.homemattersamerica.com": {
+        "url": "www.homemattersamerica.com",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "375 ORGANIZATIONS WHO HAVE PLEDGED SUPPOR",
+                "full_street": "375 ORGANIZATIONS WHO HAVE PL",
+                "street_number": "375",
+                "street_name": "ORGANIZATIONS WHO HAVE",
+                "street_type": "PL",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "EDGED SUPP",
+                "region1": "OR",
+                "postal_code": null,
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.nessit.net": {
+        "url": "www.nessit.net",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.godaddy.com": {
+        "url": "www.godaddy.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www2.opwdd.ny.gov": {
+        "url": "www2.opwdd.ny.gov",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.statejobsny.com": {
+        "url": "www.statejobsny.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.mc-cop.com": {
+        "url": "www.mc-cop.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.health.ny.gov": {
+        "url": "www.health.ny.gov",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.aginganddisabilitybusinessinstitute.org": {
+        "url": "www.aginganddisabilitybusinessinstitute.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "1730 Rhode Island Avenue, NW Suite 1200 Washington, DC 20036",
+                "full_street": "1730 Rhode Island Avenue, NW Suite 1200",
+                "street_number": "1730",
+                "street_name": "Rhode Island",
+                "street_type": "Avenue",
+                "route_id": null,
+                "post_direction": "NW",
+                "floor": null,
+                "building_id": null,
+                "occupancy": "Suite 1200",
+                "city": "Washington",
+                "region1": "DC",
+                "postal_code": "20036",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.nasuad.webex.com": {
+        "url": "www.nasuad.webex.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.nyalliance.org": {
+        "url": "www.nyalliance.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.nyconnects.ny.gov": {
+        "url": "www.nyconnects.ny.gov",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "2 Empire State PlazaAlbany, New York 12223-1251",
+                "full_street": "2 Empire State Pl",
+                "street_number": "2",
+                "street_name": "Empire State",
+                "street_type": "Pl",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "azaAlbany",
+                "region1": "New York",
+                "postal_code": "12223-1251",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.nasuad.org": {
+        "url": "www.nasuad.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.hcbsbusinessacumen.org": {
+        "url": "www.hcbsbusinessacumen.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.n4a.org": {
+        "url": "www.n4a.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.interfaithpartnership.z2systems.com": {
+        "url": "www.interfaithpartnership.z2systems.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.shriver.umassmed.edu": {
+        "url": "www.shriver.umassmed.edu",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "465 Medford Street, Suite 500Charlestown, MA 02129",
+                "full_street": "465 Medford Street, Suite 500Char",
+                "street_number": "465",
+                "street_name": "Medford",
+                "street_type": "Street",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": "Suite 500Char",
+                "city": "lestown",
+                "region1": "MA",
+                "postal_code": "02129",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.ct.gov": {
+        "url": "www.ct.gov",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "and Springfield. CT Safe Mobile App The CT",
+                "full_street": "and Springfield. CT",
+                "street_number": "and",
+                "street_name": "Springfield.",
+                "street_type": "CT",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Safe Mobile App The",
+                "region1": "CT",
+                "postal_code": null,
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.justicecenter.ny.gov": {
+        "url": "www.justicecenter.ny.gov",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.t.co": {
+        "url": "www.t.co",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.providerdirectory.opwdd.ny.gov": {
+        "url": "www.providerdirectory.opwdd.ny.gov",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.stompouthomelessness.com": {
+        "url": "www.stompouthomelessness.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.ddawny.org": {
+        "url": "www.ddawny.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "1219 North Forest Road Williamsville, NY 14221",
+                "full_street": "1219 North Forest Road",
+                "street_number": "1219",
+                "street_name": "North Forest",
+                "street_type": "Road",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Williamsville",
+                "region1": "NY",
+                "postal_code": "14221",
+                "country_id": "US"
+            },
+            {
+                "full_address": "1860 Buffalo Road Rochester, NY 14624",
+                "full_street": "1860 Buffalo Road",
+                "street_number": "1860",
+                "street_name": "Buffalo",
+                "street_type": "Road",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Rochester",
+                "region1": "NY",
+                "postal_code": "14624",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.edaextra.org": {
+        "url": "www.edaextra.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.iacny.org": {
+        "url": "www.iacny.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.ldanys.org": {
+        "url": "www.ldanys.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.nyaemp.org": {
+        "url": "www.nyaemp.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.ilny.org": {
+        "url": "www.ilny.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "155 Washington Ave, Suite 208 Albany, NY 12210",
+                "full_street": "155 Washington Ave, Suite 208",
+                "street_number": "155",
+                "street_name": "Washington",
+                "street_type": "Ave",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": "Suite 208",
+                "city": "Albany",
+                "region1": "NY",
+                "postal_code": "12210",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.nysacra.org": {
+        "url": "www.nysacra.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.nyscatholic.org": {
+        "url": "www.nyscatholic.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "465 State Street Albany, NY 12203-1004",
+                "full_street": "465 State Street",
+                "street_number": "465",
+                "street_name": "State",
+                "street_type": "Street",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Albany",
+                "region1": "NY",
+                "postal_code": "12203-1004",
+                "country_id": "US"
+            },
+            {
+                "full_address": "465 State Street, Albany, NY 12203-1004",
+                "full_street": "465 State Street",
+                "street_number": "465",
+                "street_name": "State",
+                "street_type": "Street",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Albany",
+                "region1": "NY",
+                "postal_code": "12203-1004",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.nyrehab.org": {
+        "url": "www.nyrehab.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.nysarc.org": {
+        "url": "www.nysarc.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "29 British American Blvd. 2nd Floor Latham, NY 12110",
+                "full_street": "29 British American Blvd. 2nd Floor",
+                "street_number": "29",
+                "street_name": "British American",
+                "street_type": "Blvd.",
+                "route_id": null,
+                "post_direction": null,
+                "floor": "2nd Floor",
+                "building_id": null,
+                "occupancy": null,
+                "city": "Latham",
+                "region1": "NY",
+                "postal_code": "12110",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.ujafedny.org": {
+        "url": "www.ujafedny.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.ucpnyc.org": {
+        "url": "www.ucpnyc.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "110 East 42nd Street New York, NY 10017",
+                "full_street": "110 East 42nd Street",
+                "street_number": "110",
+                "street_name": "East 42nd",
+                "street_type": "Street",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "New York",
+                "region1": "NY",
+                "postal_code": "10017",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.cpofnys.org": {
+        "url": "www.cpofnys.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.unitedtovolunteer.org": {
+        "url": "www.unitedtovolunteer.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.211neny.org": {
+        "url": "www.211neny.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.aimservicesinc.org": {
+        "url": "www.aimservicesinc.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.albanycancode.org": {
+        "url": "www.albanycancode.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "75 Troy Road East Greenbush, NY 12061",
+                "full_street": "75 Troy Road East",
+                "street_number": "75",
+                "street_name": "Troy",
+                "street_type": "Road",
+                "route_id": null,
+                "post_direction": "East",
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Greenbush",
+                "region1": "NY",
+                "postal_code": "12061",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.albanycap.org": {
+        "url": "www.albanycap.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "333 Sheridan Avenue Albany, NY 12206",
+                "full_street": "333 Sheridan Avenue",
+                "street_number": "333",
+                "street_name": "Sheridan",
+                "street_type": "Avenue",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Albany",
+                "region1": "NY",
+                "postal_code": "12206",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.albanydamiencenter.org": {
+        "url": "www.albanydamiencenter.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "728 Madison Ave, Albany, NY 12208",
+                "full_street": "728 Madison Ave",
+                "street_number": "728",
+                "street_name": "Madison",
+                "street_type": "Ave",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Albany",
+                "region1": "NY",
+                "postal_code": "12208",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.arborparkchildcare.com": {
+        "url": "www.arborparkchildcare.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.bbbscr.org": {
+        "url": "www.bbbscr.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.bgc-albany.org": {
+        "url": "www.bgc-albany.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "1215 SE Hill St. Albany, Oregon 97322",
+                "full_street": "1215 SE Hill St.",
+                "street_number": "1215",
+                "street_name": "SE Hill",
+                "street_type": "St.",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Albany",
+                "region1": "Oregon",
+                "postal_code": "97322",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.capitalroots.org": {
+        "url": "www.capitalroots.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "594 River St. Troy NY 12180",
+                "full_street": "594 River St.",
+                "street_number": "594",
+                "street_name": "River",
+                "street_type": "St.",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Troy",
+                "region1": "NY",
+                "postal_code": "12180",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.captaincares.org": {
+        "url": "www.captaincares.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "543 Saratoga Road Glenville, NY 12302",
+                "full_street": "543 Saratoga Road",
+                "street_number": "543",
+                "street_name": "Saratoga",
+                "street_type": "Road",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Glenville",
+                "region1": "NY",
+                "postal_code": "12302",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.charitiesccdos.org": {
+        "url": "www.charitiesccdos.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.ccrcda.org": {
+        "url": "www.ccrcda.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "40 North Main Avenue, Albany, NY 12203",
+                "full_street": "40 North Main Avenue",
+                "street_number": "40",
+                "street_name": "North Main",
+                "street_type": "Avenue",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Albany",
+                "region1": "NY",
+                "postal_code": "12203",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.theccj.org": {
+        "url": "www.theccj.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "144 Barrett Street Schenectady, NY 12305",
+                "full_street": "144 Barrett Street",
+                "street_number": "144",
+                "street_name": "Barrett",
+                "street_type": "Street",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Schenectady",
+                "region1": "NY",
+                "postal_code": "12305",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.ceoworks.org": {
+        "url": "www.ceoworks.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.circlesofmercy.org": {
+        "url": "www.circlesofmercy.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "11 Washington Street Rensselaer, New York 12144",
+                "full_street": "11 Washington Street",
+                "street_number": "11",
+                "street_name": "Washington",
+                "street_type": "Street",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Rensselaer",
+                "region1": "New York",
+                "postal_code": "12144",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.hopeseven.com": {
+        "url": "www.hopeseven.com",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "596 Pawling Avenue Troy, NY 12180",
+                "full_street": "596 Pawling Avenue",
+                "street_number": "596",
+                "street_name": "Pawling",
+                "street_type": "Avenue",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Troy",
+                "region1": "NY",
+                "postal_code": "12180",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.equinoxinc.org": {
+        "url": "www.equinoxinc.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.familyandchildservice.com": {
+        "url": "www.familyandchildservice.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.thefoodpantries.org": {
+        "url": "www.thefoodpantries.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "32 Essex Street Albany, NY",
+                "full_street": "32 Essex Street",
+                "street_number": "32",
+                "street_name": "Essex",
+                "street_type": "Street",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Albany",
+                "region1": "NY",
+                "postal_code": null,
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.girlsinccapitalregion.org": {
+        "url": "www.girlsinccapitalregion.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "962 Albany St. Schenectady, NY 12307",
+                "full_street": "962 Albany St.",
+                "street_number": "962",
+                "street_name": "Albany",
+                "street_type": "St.",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Schenectady",
+                "region1": "NY",
+                "postal_code": "12307",
+                "country_id": "US"
+            },
+            {
+                "full_address": "80 Central Ave. Albany, NY 12206",
+                "full_street": "80 Central Ave.",
+                "street_number": "80",
+                "street_name": "Central",
+                "street_type": "Ave.",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Albany",
+                "region1": "NY",
+                "postal_code": "12206",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.hospitalityhousetc.org": {
+        "url": "www.hospitalityhousetc.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "271 Central Avenue Albany, NY 12206",
+                "full_street": "271 Central Avenue",
+                "street_number": "271",
+                "street_name": "Central",
+                "street_type": "Avenue",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Albany",
+                "region1": "NY",
+                "postal_code": "12206",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.jfsneny.org": {
+        "url": "www.jfsneny.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.lvasc.org": {
+        "url": "www.lvasc.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "73 North Main Street, Suite 101Gloversville, NY 12078",
+                "full_street": "73 North Main Street, Suite 101Glov",
+                "street_number": "73",
+                "street_name": "North Main",
+                "street_type": "Street",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": "Suite 101Glov",
+                "city": "ersville",
+                "region1": "NY",
+                "postal_code": "12078",
+                "country_id": "US"
+            },
+            {
+                "full_address": "107 Chapel Street, Suite 1Cobleskill, NY 12043",
+                "full_street": "107 Chapel Street, Suite 1Cobles",
+                "street_number": "107",
+                "street_name": "Chapel",
+                "street_type": "Street",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": "Suite 1Cobles",
+                "city": "kill",
+                "region1": "NY",
+                "postal_code": "12043",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.mechanicvilleacsc.org": {
+        "url": "www.mechanicvilleacsc.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "and share memorieslegacy.comLoatman, Dr. Paul J. Jr. MECHANICVIL",
+                "full_street": "and share memorieslegacy.comLoatman, Dr.",
+                "street_number": "and",
+                "street_name": "share memorieslegacy.comLoatman",
+                "street_type": "Dr.",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Paul J. Jr. MECHANICV",
+                "region1": "IL",
+                "postal_code": null,
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.rtsaratoga.org": {
+        "url": "www.rtsaratoga.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "132 Milton Ave, Ballston Spa, NY 12020",
+                "full_street": "132 Milton Ave",
+                "street_number": "132",
+                "street_name": "Milton",
+                "street_type": "Ave",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Ballston Spa",
+                "region1": "NY",
+                "postal_code": "12020",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.risse-albany.org": {
+        "url": "www.risse-albany.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.safeincofschenectady.org": {
+        "url": "www.safeincofschenectady.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.empire.salvationarmy.org": {
+        "url": "www.empire.salvationarmy.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.saratogacommunityhealthcenter.org": {
+        "url": "www.saratogacommunityhealthcenter.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "24 Hamilton Street, Saratoga Springs, NY 12866",
+                "full_street": "24 Hamilton Street",
+                "street_number": "24",
+                "street_name": "Hamilton",
+                "street_type": "Street",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Saratoga Springs",
+                "region1": "NY",
+                "postal_code": "12866",
+                "country_id": "US"
+            },
+            {
+                "full_address": "886-5600 24 Hamilton Street, Saratoga Springs, NY 12866",
+                "full_street": "886-5600 24 Hamilton Street",
+                "street_number": "886-5600",
+                "street_name": "24 Hamilton",
+                "street_type": "Street",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Saratoga Springs",
+                "region1": "NY",
+                "postal_code": "12866",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.saratogaseniorcenter.org": {
+        "url": "www.saratogaseniorcenter.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "5 Williams Street, Saratoga Springs, NY 12866",
+                "full_street": "5 Williams Street",
+                "street_number": "5",
+                "street_name": "Williams",
+                "street_type": "Street",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Saratoga Springs",
+                "region1": "NY",
+                "postal_code": "12866",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.sccapinc.org": {
+        "url": "www.sccapinc.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "795 East Main Street Suite 5, Cobleskill, New York 12043",
+                "full_street": "795 East Main Street Suite 5",
+                "street_number": "795",
+                "street_name": "East Main",
+                "street_type": "Street",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": "Suite 5",
+                "city": "Cobleskill",
+                "region1": "New York",
+                "postal_code": "12043",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.schoharierivercenter.org": {
+        "url": "www.schoharierivercenter.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "2025 Burtonville Road Esperance NY 12066",
+                "full_street": "2025 Burtonville Road",
+                "street_number": "2025",
+                "street_name": "Burtonville",
+                "street_type": "Road",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Esperance",
+                "region1": "NY",
+                "postal_code": "12066",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.seniorservicesofalbany.com": {
+        "url": "www.seniorservicesofalbany.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.seatcenter.org": {
+        "url": "www.seatcenter.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "131 State Street Schenectady, NY 12305",
+                "full_street": "131 State Street",
+                "street_number": "131",
+                "street_name": "State",
+                "street_type": "Street",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Schenectady",
+                "region1": "NY",
+                "postal_code": "12305",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.trinityalliancealbany.org": {
+        "url": "www.trinityalliancealbany.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.unityhouseny.org": {
+        "url": "www.unityhouseny.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "2431 Sixth Avenue Troy, New York 12180",
+                "full_street": "2431 Sixth Avenue",
+                "street_number": "2431",
+                "street_name": "Sixth",
+                "street_type": "Avenue",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Troy",
+                "region1": "New York",
+                "postal_code": "12180",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.refugees.org": {
+        "url": "www.refugees.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "and Immigrants 2231 Crystal Drive, Suite 350, Arlington, VA 22202",
+                "full_street": "and Immigrants 2231 Crystal Drive, Suite 350",
+                "street_number": "and",
+                "street_name": "Immigrants 2231 Crystal",
+                "street_type": "Drive",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": "Suite 350",
+                "city": "Arlington",
+                "region1": "VA",
+                "postal_code": "22202",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.watervlietciviccenter.com": {
+        "url": "www.watervlietciviccenter.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.wildwood.edu": {
+        "url": "www.wildwood.edu",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "and Division St., Troy, NY 12180",
+                "full_street": "and Division St.",
+                "street_number": "and",
+                "street_name": "Division",
+                "street_type": "St.",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Troy",
+                "region1": "NY",
+                "postal_code": "12180",
+                "country_id": "US"
+            },
+            {
+                "full_address": "224 North Ballston Road, (Route 50), Scotia, NY 12302",
+                "full_street": "224 North Ballston Road, (Route 50)",
+                "street_number": "224",
+                "street_name": "North Ballston",
+                "street_type": "Road",
+                "route_id": "(Route 50)",
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Scotia",
+                "region1": "NY",
+                "postal_code": "12302",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.ywca-northeasternny.org": {
+        "url": "www.ywca-northeasternny.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "44 Washington Avenue, Schenectady, NY 12305",
+                "full_street": "44 Washington Avenue",
+                "street_number": "44",
+                "street_name": "Washington",
+                "street_type": "Avenue",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Schenectady",
+                "region1": "NY",
+                "postal_code": "12305",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.oneeach.com": {
+        "url": "www.oneeach.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.bizjournals.com": {
+        "url": "www.bizjournals.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.endinghomelessnessny.org": {
+        "url": "www.endinghomelessnessny.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "200 Henry Johnson Blvd. Suite 4 Albany, NY 12210",
+                "full_street": "200 Henry Johnson Blvd. Suite 4",
+                "street_number": "200",
+                "street_name": "Henry Johnson",
+                "street_type": "Blvd.",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": "Suite 4",
+                "city": "Albany",
+                "region1": "NY",
+                "postal_code": "12210",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.enginesofcreation.com": {
+        "url": "www.enginesofcreation.com",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "842-3242 120 Market St. Amsterdam, NY 12010",
+                "full_street": "842-3242 120 Market St.",
+                "street_number": "842-3242",
+                "street_name": "120 Market",
+                "street_type": "St.",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Amsterdam",
+                "region1": "NY",
+                "postal_code": "12010",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.donatenow.networkforgood.org": {
+        "url": "www.donatenow.networkforgood.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.smile.amazon.com": {
+        "url": "www.smile.amazon.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.hudexchange.info": {
+        "url": "www.hudexchange.info",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.dhtrivia.givesmart.com": {
+        "url": "www.dhtrivia.givesmart.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.atasteofalbany.com": {
+        "url": "www.atasteofalbany.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.digital.olivesoftware.com": {
+        "url": "www.digital.olivesoftware.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.donate.firstgiving.com": {
+        "url": "www.donate.firstgiving.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.workingtomakeadifference.eventbrite.com": {
+        "url": "www.workingtomakeadifference.eventbrite.com",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "645 Albany Shaker Rd Albany, NY 12211",
+                "full_street": "645 Albany Shaker Rd",
+                "street_number": "645",
+                "street_name": "Albany Shaker",
+                "street_type": "Rd",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Albany",
+                "region1": "NY",
+                "postal_code": "12211",
+                "country_id": "US"
+            },
+            {
+                "full_address": "645 Albany Shaker Rd, Albany, NY 12211",
+                "full_street": "645 Albany Shaker Rd",
+                "street_number": "645",
+                "street_name": "Albany Shaker",
+                "street_type": "Rd",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Albany",
+                "region1": "NY",
+                "postal_code": "12211",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.bombas.com": {
+        "url": "www.bombas.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.firstgiving.com": {
+        "url": "www.firstgiving.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.501auctions.com": {
+        "url": "www.501auctions.com",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "and its affiliates. 361 Stagg St, Brooklyn, NY",
+                "full_street": "and its affiliates. 361 Stagg St",
+                "street_number": "and",
+                "street_name": "its affiliates. 361 Stagg",
+                "street_type": "St",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Brooklyn",
+                "region1": "NY",
+                "postal_code": null,
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.yougivegoods.com": {
+        "url": "www.yougivegoods.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.kevindemassiophotography.shootproof.com": {
+        "url": "www.kevindemassiophotography.shootproof.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.m.timesunion.com": {
+        "url": "www.m.timesunion.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.wnyt.com": {
+        "url": "www.wnyt.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.chausa.org": {
+        "url": "www.chausa.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "1875 Eye Street NW Suite 1000 Washington, DC 20006",
+                "full_street": "1875 Eye Street NW Suite 1000",
+                "street_number": "1875",
+                "street_name": "Eye",
+                "street_type": "Street",
+                "route_id": null,
+                "post_direction": "NW",
+                "floor": null,
+                "building_id": null,
+                "occupancy": "Suite 1000",
+                "city": "Washington",
+                "region1": "DC",
+                "postal_code": "20006",
+                "country_id": "US"
+            },
+            {
+                "full_address": "296-3993 ST. LOUIS OFFICE 4455 Woodson Road St. Louis, MO 63134",
+                "full_street": "296-3993 ST. LOUIS OFFICE 4455 Woodson Road",
+                "street_number": "296-3993",
+                "street_name": "ST. LOUIS OFFICE 4455 Woodson",
+                "street_type": "Road",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "St. Louis",
+                "region1": "MO",
+                "postal_code": "63134",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.news10.com": {
+        "url": "www.news10.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.twcnews.com": {
+        "url": "www.twcnews.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.cbs6albany.com": {
+        "url": "www.cbs6albany.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.alloveralbany.com": {
+        "url": "www.alloveralbany.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.recordernews.com": {
+        "url": "www.recordernews.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.dailygazette.com": {
+        "url": "www.dailygazette.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.leaderherald.com": {
+        "url": "www.leaderherald.com",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "8 East Fulton St, Gloversville, NY 12078",
+                "full_street": "8 East Fulton St",
+                "street_number": "8",
+                "street_name": "East Fulton",
+                "street_type": "St",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Gloversville",
+                "region1": "NY",
+                "postal_code": "12078",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.r20.rs6.net": {
+        "url": "www.r20.rs6.net",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.albanyrealtygroup.com": {
+        "url": "www.albanyrealtygroup.com",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "203 Delaware AveDelmar, NY 12054",
+                "full_street": "203 Delaware Ave",
+                "street_number": "203",
+                "street_name": "Delaware",
+                "street_type": "Ave",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Delmar",
+                "region1": "NY",
+                "postal_code": "12054",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.rcda.org": {
+        "url": "www.rcda.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "40 North Main Avenue, Albany, NY 12203",
+                "full_street": "40 North Main Avenue",
+                "street_number": "40",
+                "street_name": "North Main",
+                "street_type": "Avenue",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Albany",
+                "region1": "NY",
+                "postal_code": "12203",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.communityresource.coop": {
+        "url": "www.communityresource.coop",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.loudonvillepresbychurch.org": {
+        "url": "www.loudonvillepresbychurch.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "22 Old Niskayuna Rd., Loudonville, NY 12211",
+                "full_street": "22 Old Niskayuna Rd.",
+                "street_number": "22",
+                "street_name": "Old Niskayuna",
+                "street_type": "Rd.",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Loudonville",
+                "region1": "NY",
+                "postal_code": "12211",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.ahrc.org": {
+        "url": "www.ahrc.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.citizens-inc.org": {
+        "url": "www.citizens-inc.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "189 Wheatley Road, Brookville, NY 11545",
+                "full_street": "189 Wheatley Road",
+                "street_number": "189",
+                "street_name": "Wheatley",
+                "street_type": "Road",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Brookville",
+                "region1": "NY",
+                "postal_code": "11545",
+                "country_id": "US"
+            },
+            {
+                "full_address": "115 E. Bethpage Road, Plainview, NY 11803",
+                "full_street": "115 E. Bethpage Road, Pl",
+                "street_number": "115",
+                "street_name": "E. Bethpage Road",
+                "street_type": "Pl",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "ainview",
+                "region1": "NY",
+                "postal_code": "11803",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.heritagechristianservices.org": {
+        "url": "www.heritagechristianservices.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "275 Kenneth Dr., Suite 100 Rochester, NY 14623",
+                "full_street": "275 Kenneth Dr., Suite 100",
+                "street_number": "275",
+                "street_name": "Kenneth",
+                "street_type": "Dr.",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": "Suite 100",
+                "city": "Rochester",
+                "region1": "NY",
+                "postal_code": "14623",
+                "country_id": "US"
+            },
+            {
+                "full_address": "3790 Commerce Court, Suite 800 N. Tonawanda, NY 14120",
+                "full_street": "3790 Commerce Court, Suite 800",
+                "street_number": "3790",
+                "street_name": "Commerce",
+                "street_type": "Court",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": "Suite 800",
+                "city": "N. Tonawanda",
+                "region1": "NY",
+                "postal_code": "14120",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.makordisabilityservices.org": {
+        "url": "www.makordisabilityservices.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.emedny.org": {
+        "url": "www.emedny.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.parenttoparentnys.org": {
+        "url": "www.parenttoparentnys.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "500 Balltown Rd. Schenectady, NY 12304",
+                "full_street": "500 Balltown Rd.",
+                "street_number": "500",
+                "street_name": "Balltown",
+                "street_type": "Rd.",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Schenectady",
+                "region1": "NY",
+                "postal_code": "12304",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.doddportal.dodd.ohio.gov": {
+        "url": "www.doddportal.dodd.ohio.gov",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.dcyf.ri.gov": {
+        "url": "www.dcyf.ri.gov",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "101 Friendship Street, Providence, RI 02903-3716",
+                "full_street": "101 Friendship Street",
+                "street_number": "101",
+                "street_name": "Friendship",
+                "street_type": "Street",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Providence",
+                "region1": "RI",
+                "postal_code": "02903-3716",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.ildspinitiative.com": {
+        "url": "www.ildspinitiative.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.qualitymall.org": {
+        "url": "www.qualitymall.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.meetny.webex.com": {
+        "url": "www.meetny.webex.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.nyslearn.ny.gov": {
+        "url": "www.nyslearn.ny.gov",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.sanys.org": {
+        "url": "www.sanys.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.sabeusa.org": {
+        "url": "www.sabeusa.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.advancecarealliance.org": {
+        "url": "www.advancecarealliance.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "60 East 42nd St., Suite 1762 New York, NY 10165",
+                "full_street": "60 East 42nd St., Suite 1762",
+                "street_number": "60",
+                "street_name": "East 42nd",
+                "street_type": "St.",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": "Suite 1762",
+                "city": "New York",
+                "region1": "NY",
+                "postal_code": "10165",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.caredesignny.org": {
+        "url": "www.caredesignny.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "1 Michael AvenueFarmingdale, NY 11735",
+                "full_street": "1 Michael Avenue",
+                "street_number": "1",
+                "street_name": "Michael",
+                "street_type": "Avenue",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Farmingdale",
+                "region1": "NY",
+                "postal_code": "11735",
+                "country_id": "US"
+            },
+            {
+                "full_address": "86 Main Street3rd Floor Yonkers, NY 10701",
+                "full_street": "86 Main Street3rd Floor",
+                "street_number": "86",
+                "street_name": "Main",
+                "street_type": "Street",
+                "route_id": null,
+                "post_direction": null,
+                "floor": "3rd Floor",
+                "building_id": null,
+                "occupancy": null,
+                "city": "Yonkers",
+                "region1": "NY",
+                "postal_code": "10701",
+                "country_id": "US"
+            },
+            {
+                "full_address": "235-1888 Corporate Office8 Southwoods BlvdSuite 110Albany, NY 12211",
+                "full_street": "235-1888 Corporate Office8 Southwoods BlvdSuite 110Alb",
+                "street_number": "235-1888",
+                "street_name": "Corporate Office8 Southwoods",
+                "street_type": "Blvd",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": "Suite 110Alb",
+                "city": "any",
+                "region1": "NY",
+                "postal_code": "12211",
+                "country_id": "US"
+            },
+            {
+                "full_address": "107 Hammond LanePlattsburgh, NY 12901",
+                "full_street": "107 Hammond Lane",
+                "street_number": "107",
+                "street_name": "Hammond",
+                "street_type": "Lane",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Plattsburgh",
+                "region1": "NY",
+                "postal_code": "12901",
+                "country_id": "US"
+            },
+            {
+                "full_address": "8 Southwoods BlvdSuite 110Albany, NY 12211",
+                "full_street": "8 Southwoods BlvdSuite 110Alb",
+                "street_number": "8",
+                "street_name": "Southwoods",
+                "street_type": "Blvd",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": "Suite 110Alb",
+                "city": "any",
+                "region1": "NY",
+                "postal_code": "12211",
+                "country_id": "US"
+            },
+            {
+                "full_address": "8 Southwoods Blvd, Suite 110Albany, NY 12211",
+                "full_street": "8 Southwoods Blvd, Suite 110Alb",
+                "street_number": "8",
+                "street_name": "Southwoods",
+                "street_type": "Blvd",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": "Suite 110Alb",
+                "city": "any",
+                "region1": "NY",
+                "postal_code": "12211",
+                "country_id": "US"
+            },
+            {
+                "full_address": "700 South DriveSuite 204Hopewell Junction, NY 12533",
+                "full_street": "700 South DriveSuite 204Hope",
+                "street_number": "700",
+                "street_name": "South",
+                "street_type": "Drive",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": "Suite 204Hope",
+                "city": "well Junction",
+                "region1": "NY",
+                "postal_code": "12533",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.lifeplanccony.com": {
+        "url": "www.lifeplanccony.com",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "215 Washington Street, Suite 012 Watertown, NY 13601",
+                "full_street": "215 Washington Street, Suite 012",
+                "street_number": "215",
+                "street_name": "Washington",
+                "street_type": "Street",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": "Suite 012",
+                "city": "Watertown",
+                "region1": "NY",
+                "postal_code": "13601",
+                "country_id": "US"
+            },
+            {
+                "full_address": "1249 Upper Front Street Binghamton, NY 13905",
+                "full_street": "1249 Upper Front Street",
+                "street_number": "1249",
+                "street_name": "Upper Front",
+                "street_type": "Street",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Binghamton",
+                "region1": "NY",
+                "postal_code": "13905",
+                "country_id": "US"
+            },
+            {
+                "full_address": "290 Elwood Davis Road Liverpool, NY 13088",
+                "full_street": "290 Elwood Davis Road",
+                "street_number": "290",
+                "street_name": "Elwood Davis",
+                "street_type": "Road",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Liverpool",
+                "region1": "NY",
+                "postal_code": "13088",
+                "country_id": "US"
+            },
+            {
+                "full_address": "59 Windsor Highway Suite 230 New Windsor, NY 12553",
+                "full_street": "59 Windsor Highway Suite 230",
+                "street_number": "59",
+                "street_name": "Windsor",
+                "street_type": "Highway",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": "Suite 230",
+                "city": "New Windsor",
+                "region1": "NY",
+                "postal_code": "12553",
+                "country_id": "US"
+            },
+            {
+                "full_address": "2 Main Street, Suite 6 Delhi, NY 13753",
+                "full_street": "2 Main Street, Suite 6",
+                "street_number": "2",
+                "street_name": "Main",
+                "street_type": "Street",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": "Suite 6",
+                "city": "Delhi",
+                "region1": "NY",
+                "postal_code": "13753",
+                "country_id": "US"
+            },
+            {
+                "full_address": "2 107 Winney Hill Road Oneonta, NY 13820",
+                "full_street": "2 107 Winney Hill Road",
+                "street_number": "2 107",
+                "street_name": "Winney Hill",
+                "street_type": "Road",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Oneonta",
+                "region1": "NY",
+                "postal_code": "13820",
+                "country_id": "US"
+            },
+            {
+                "full_address": "5703 B Enterprise Parkway East Syracuse, NY 13057",
+                "full_street": "5703 B Enterprise Parkway East",
+                "street_number": "5703",
+                "street_name": "B Enterprise",
+                "street_type": "Parkway",
+                "route_id": null,
+                "post_direction": "East",
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Syracuse",
+                "region1": "NY",
+                "postal_code": "13057",
+                "country_id": "US"
+            },
+            {
+                "full_address": "258 Genesee St. Mezzanine Utica, NY 13502",
+                "full_street": "258 Genesee St.",
+                "street_number": "258",
+                "street_name": "Genesee",
+                "street_type": "St.",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": null,
+                "city": "Mezzanine Utica",
+                "region1": "NY",
+                "postal_code": "13502",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.personcenteredservices.com": {
+        "url": "www.personcenteredservices.com",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "560 Delaware Ave.Suite 400Buffalo, NY 14202",
+                "full_street": "560 Delaware Ave.Suite 400Buff",
+                "street_number": "560",
+                "street_name": "Delaware",
+                "street_type": "Ave.",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": "Suite 400Buff",
+                "city": "alo",
+                "region1": "NY",
+                "postal_code": "14202",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.primecareny.org": {
+        "url": "www.primecareny.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.southerntierconnect.org": {
+        "url": "www.southerntierconnect.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.tricountycare.org": {
+        "url": "www.tricountycare.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.medisked.com": {
+        "url": "www.medisked.com",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.americanbar.org": {
+        "url": "www.americanbar.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.drny.org": {
+        "url": "www.drny.org",
+        "name": [],
+        "phone": [],
+        "address": [
+            {
+                "full_address": "44 Exchange Blvd, Suite 110 Rochester, New York 14614",
+                "full_street": "44 Exchange Blvd, Suite 110",
+                "street_number": "44",
+                "street_name": "Exchange",
+                "street_type": "Blvd",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": "Suite 110",
+                "city": "Rochester",
+                "region1": "New York",
+                "postal_code": "14614",
+                "country_id": "US"
+            },
+            {
+                "full_address": "and Conditions OFFICES 725 Broadway, Suite 450 Albany, New York 12207",
+                "full_street": "and Conditions OFFICES 725 Broadway, Suite 450",
+                "street_number": "and",
+                "street_name": "Conditions OFFICES 725",
+                "street_type": "Broadway",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": "Suite 450",
+                "city": "Albany",
+                "region1": "New York",
+                "postal_code": "12207",
+                "country_id": "US"
+            },
+            {
+                "full_address": "25 Chapel Street, Suite 1005 Brooklyn, New York 11201",
+                "full_street": "25 Chapel Street, Suite 1005",
+                "street_number": "25",
+                "street_name": "Chapel",
+                "street_type": "Street",
+                "route_id": null,
+                "post_direction": null,
+                "floor": null,
+                "building_id": null,
+                "occupancy": "Suite 1005",
+                "city": "Brooklyn",
+                "region1": "New York",
+                "postal_code": "11201",
+                "country_id": "US"
+            }
+        ]
+    },
+    "www.olmsteadrights.org": {
+        "url": "www.olmsteadrights.org",
+        "name": [],
+        "phone": [],
+        "address": []
+    },
+    "www.nycourts.gov": {
+        "url": "www.nycourts.gov",
+        "name": [],
+        "phone": [],
+        "address": []
+    }
+}

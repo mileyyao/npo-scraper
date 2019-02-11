@@ -92,17 +92,6 @@ class OrgCrawler(scrapy.Spider):
         for url in urls:
             yield scrapy.Request(url=url, callback=self.parse_url)
 
-    # called when spider is closed
-    def spider_closed(self):
-        with open(out_file, 'w') as o, open(partner_file, 'w') as p:
-            o.write(json.dumps(data, indent=4))
-            p.write(json.dumps(partner_info, indent=4))
-
-        _health_check()
-
-        self.logger.info(f'Total time elapsed: {datetime.timedelta(seconds=time.time() - start)}')
-        print(f'Total time elapsed: {datetime.timedelta(seconds=time.time() - start)}')
-
     # crawling logic
     def parse_url(self, response):
 
@@ -160,8 +149,18 @@ class OrgCrawler(scrapy.Spider):
                     # add template of partner info for secondary crawler
                     partner_info[partner_name] = {
                         'url': partner_name,
-                        'name': None,
-                        'phone': None,
-                        'address': None
+                        'name': [],
+                        'phone': [],
+                        'address': []
                     }
 
+    # called when spider is closed
+    def spider_closed(self):
+        with open(out_file, 'w') as o, open(partner_file, 'w') as p:
+            o.write(json.dumps(data, indent=4))
+            p.write(json.dumps(partner_info, indent=4))
+
+        _health_check()
+
+        self.logger.info(f'Total time elapsed: {datetime.timedelta(seconds=time.time() - start)}')
+        print(f'Total time elapsed: {datetime.timedelta(seconds=time.time() - start)}')

@@ -1,12 +1,17 @@
 ## NPO Partner Web Scraper
 
 To execute the program, run the command  
-```scrapy runspider main.py```
+```scrapy runspider main.py```  
+``scrapy runspider info_crawl.py`` - run after main spider, ensure ``partner.json`` file 
+is in same directory.
 
 This program attempts to find all possible partner non-profit organizations given a set of "seed URLs".
 These URLs will serve as input for the program.
 
 The program will attempt to traverse all possible links on a page that match our criteria.
+
+Finally, all partners will be parsed in an attempt to find contact information using the 
+``info_crawl.py`` spider.
 
 Initial development utilizes [scrapy](https://scrapy.org) as the main crawling engine.
 
@@ -15,7 +20,8 @@ set of URLs.
 
 **Current state**: Scraper will list all links that follow a valid "partner path" as partners. 
 Work still needs to be done on scraping non ``<a>`` style partners, i.e. ``<ul>`` or 
-``<div>>`` items.
+``<div>`` items. These partners are stored in a "low_confidence" entry as initial results 
+have been poor. 
 
 ```json
 {
@@ -51,16 +57,22 @@ Work still needs to be done on scraping non ``<a>`` style partners, i.e. ``<ul>`
 
 A history will be kept in the local directory under ``debug/``.
 
-**Note:** You may want to adjust the ``DOWNLOAD_TIMEOUT`` setting in ``main.py``. It is currently set to
+**Notes:** 
+
+- You may want to adjust the ``DOWNLOAD_TIMEOUT`` setting in ``main.py``. It is currently set to
 5 seconds (default is 180) for quicker debugging.
+- There may be some problems executing in the Windows environment, namely in the ``os`` functions.
+- **Python 3.6 is required.**
 
 You can prepend ``--`` to any line in the seed file to exclude it from being read in.
 
 ``main.py`` - crawling logic  
+``info_crawl.py`` - crawling logic for partner site contact information
 ``utils.py`` - data cleaning and utilities  
 ``partner_kw.txt`` - keywords to grab partner data  
 ``stop_kw.txt`` - stop words  
 ``partner_urls.txt`` - seed URLs  
 ``slim_urls.txt`` - test/debug URLs  
 ``output.json`` - JSON object representation relations between partners and base sites  
+``partner.json`` - JSON representation of all found partners and their corresponding contact information  
 ``log.txt`` - scrapy log. also include s traces of URLs and which keywords/stop words were used to traverse.
