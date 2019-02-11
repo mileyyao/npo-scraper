@@ -114,8 +114,20 @@ class OrgCrawler(scrapy.Spider):
         if not base in data:
             data[base] = {
                 'breadcrumbs': [],
-                'partners': []
+                'partners': [],
+                'low_confidence': []
             }
+
+        # TODO: Create utils functions for the validation
+        # TODO: Make selection more dynamic
+        # check to see if current page has potential partners in plain text
+        on_page_kws = ['members']
+        if utils.valid_partner_url(response.url, self.logger):
+            for header in response.xpath('//h1/text()'):
+                if any(kw in header.get().lower() for kw in on_page_kws):
+                    data[base]['low_confidence'] += [item.get() for item in response.xpath('//ul//li/text()')]
+
+
 
         # TODO: create xpath string generator this should really be
         # TODO: '//a[not(contains(@href, "youtube")) and not(contains(@href, "facebook"))]'
@@ -128,11 +140,12 @@ class OrgCrawler(scrapy.Spider):
             full_url = response.urljoin(link_url)
 
             # on the right path - keep going
-            if utils.valid_partner_url(link_url, self.logger) and full_url not in data[base]['breadcrumbs']:
-                # Make sure we are still in domain (don't leave site)
-                if utils.get_hostname(response.url) == utils.get_hostname(full_url):
-                    data[base]['breadcrumbs'].append(full_url)
-                    yield scrapy.Request(full_url, callback=self.parse_url)
+            if (utils.valid_partner_url(link_url, self.logger) and                      # partner kw is in URL
+                    full_url not in data[base]['breadcrumbs'] and                       # haven't already been here
+                    utils.get_hostname(response.url) == utils.get_hostname(full_url)):  # still on same site
+
+                data[base]['breadcrumbs'].append(full_url)
+                yield scrapy.Request(full_url, callback=self.parse_url)
 
             # not a partner match, but came from  a partner page i.e mysite/partners -> yoursite.org
             elif utils.valid_partner_url(response.url):
@@ -151,3 +164,4 @@ class OrgCrawler(scrapy.Spider):
                         'phone': None,
                         'address': None
                     }
+
