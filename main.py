@@ -8,28 +8,30 @@ import time
 import os
 
 timestamp = datetime.datetime.strftime(datetime.datetime.now(), '%-m-%-d %H-%M-%S')
+# change this to move debug output
 debug_path = os.path.join('debug', timestamp)
 
 os.makedirs(debug_path)
 
-out_file = os.path.join(debug_path, 'output.json')
-log_file = os.path.join(debug_path, 'log.txt')
-generated_urls = os.path.join(debug_path, 'urls.txt')
+out_file = os.path.join(debug_path, 'output.json')          # JSON mapping of seed site to partners
+partner_file = os.path.join(debug_path, 'partner.json')     # JSON mapping of partners to contact information
+log_file = os.path.join(debug_path, 'log.txt')              # debug: scrapy log
+generated_urls = os.path.join(debug_path, 'urls.txt')       # debug: actual list of parsed URLs fed to scrapy
 
-data = {}
+data = {}               # contains mapping of seed site to partners
+partner_info = {}       # contains mapping of partners to contact and other information
 
 start = time.time()
 
-# clear out files
-with open(out_file, 'w') as a, open(log_file, 'w') as b:
-    pass
 
 # debug purposes, simple health checks
 def _health_check():
     with open(generated_urls, 'r') as urls, open(out_file, 'r') as output:
 
+        out_data = json.load(output)
+
         no_urls = len(urls.readlines())
-        no_keys = len(json.load(output).keys())
+        no_keys = len(out_data.keys())
 
         # checks to see if number of base urls matches in read urls
         if no_urls == no_keys:
@@ -37,8 +39,29 @@ def _health_check():
         else:
             print(f'🚫 Health check fail. Number of URLs read in [{no_urls}] is not the same as output [{no_keys}].')
 
+        # checks to make sure we have an entry for every partner in partner_info
+
+        partners = set()
+        partner_pass = True
+        for entry in out_data.values():
+            [partners.add(partner) for partner in entry['partners']]
+        for partner in partners:
+            if partner not in partner_info:
+                print(f'🚫 Health check fail. No contact entry for {partner}.')
+                partner_pass = False
+        if partner_pass:
+            print(f'✅ Health check Pass. All partners have contact entry.')
+
+        for partner_contact in partner_info:
+            if partner_contact not in partners:
+                print(f'⚠️ Warning: {partner_contact} in contacts but not a partner.')
+
 
 class OrgCrawler(scrapy.Spider):
+
+    def __init__(self, filename='partner_urls.txt', **kwargs):
+        self.filename = filename
+        super().__init__(**kwargs)
 
     name = 'orgcrawler'
 
@@ -59,7 +82,7 @@ class OrgCrawler(scrapy.Spider):
     # get urls, generate request objects to crawl
     # will call parse() to crawl
     def start_requests(self):
-        urls = utils.get_urls(filename='partner_urls.txt')
+        urls = utils.get_urls(filename=self.filename)
 
         # debug purposes
         with open(generated_urls, 'w') as f:
@@ -71,8 +94,9 @@ class OrgCrawler(scrapy.Spider):
 
     # called when spider is closed
     def spider_closed(self):
-        with open(out_file, 'w') as f:
-            f.write(json.dumps(data, indent=4))
+        with open(out_file, 'w') as o, open(partner_file, 'w') as p:
+            o.write(json.dumps(data, indent=4))
+            p.write(json.dumps(partner_info, indent=4))
 
         _health_check()
 
@@ -110,7 +134,7 @@ class OrgCrawler(scrapy.Spider):
                     data[base]['breadcrumbs'].append(full_url)
                     yield scrapy.Request(full_url, callback=self.parse_url)
 
-            # not a partner match, but came from  a partner page i.e mysite/partners -> mysite.org
+            # not a partner match, but came from  a partner page i.e mysite/partners -> yoursite.org
             elif utils.valid_partner_url(response.url):
 
                 # get base name of partner
@@ -120,13 +144,10 @@ class OrgCrawler(scrapy.Spider):
                 if partner_name not in data[base]['partners'] and utils.valid_partner(base, full_url, self.logger):
                     data[base]['partners'].append(partner_name)
 
-
-                yield scrapy.Request(full_url, callback=self.scrape_url, meta={'base': base})
-
-    # this function contain the main logic for scraping partner data off of a candidate page
-    # TODO: Pages are only scraped once per session regardless of the source. Need to create additional
-    # TODO: mapping for all parner information
-    def scrape_url(self, response):
-
-        # get the site we came from
-        base = response.meta.get('base')
+                    # add template of partner info for secondary crawler
+                    partner_info[partner_name] = {
+                        'url': partner_name,
+                        'name': None,
+                        'phone': None,
+                        'address': None
+                    }

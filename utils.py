@@ -56,7 +56,7 @@ def stop_word_match(url, logger=None):
             return True
 
 
-# check to make sure we have a partner match and no stop words
+# check to see if URL is on path of detecting partner
 def valid_partner_url(url, logger=None):
     return partner_match(url, logger) and not stop_word_match(url, logger)
 
@@ -73,13 +73,8 @@ def get_hostname(url):
         return f'www.{hostname}'
     return hostname
 
-# validates a given url to ensure it is a valid partner
-# base is the hostname of the site where the partner was found i.e. foodpantry.org
-# url is the name of the partner site link i.e. soupkitchen.org (which was found in base)
-# ensures no stop words are in the partner link (no fb, ig, twitter, yt, etc..)
+# validates a URL to see if it is a potential partner link
 def valid_partner(base, url, logger=None):
-
-
 
     return (get_hostname(base) != get_hostname(url) and
             not stop_word_match(url, logger) and
