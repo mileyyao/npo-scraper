@@ -7,7 +7,7 @@ To scrape contact information for partners
 ``scrapy runspider info_crawl.py`` - ensure generated partner.json is in same directory  
 ``scrapy runspider -a filename='YOUR_FILE' info_crawl.py`` - optional .txt file of urls can be passed in
 
-#####Dependancies:
+##### Dependancies:
 ```python
 scrapy
 pyap
