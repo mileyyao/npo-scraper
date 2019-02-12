@@ -5,7 +5,13 @@ To execute the program
 
 To scrape contact information for partners  
 ``scrapy runspider info_crawl.py`` - ensure generated partner.json is in same directory  
-``scrapy runspider -a filename='YOUR_FILE' info_crawl.py`` - optional .txt file of urls can be passed in 
+``scrapy runspider -a filename='YOUR_FILE' info_crawl.py`` - optional .txt file of urls can be passed in
+
+#####Dependancies:
+```python
+scrapy
+pyap
+``` 
 
 This program attempts to find all possible partner non-profit organizations given a set of "seed URLs".
 These URLs will serve as input for the program.
