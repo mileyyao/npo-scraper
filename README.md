@@ -1,9 +1,11 @@
 ## NPO Partner Web Scraper
 
-To execute the program, run the command  
-```scrapy runspider main.py```  
-``scrapy runspider info_crawl.py`` - run after main spider, ensure ``partner.json`` file 
-is in same directory.
+To execute the program  
+``scrapy runspider main.py``  
+
+To scrape contact information for partners  
+``scrapy runspider info_crawl.py`` - ensure generated partner.json is in same directory  
+``scrapy runspider -a filename='YOUR_FILE' info_crawl.py`` - optional .txt file of urls can be passed in 
 
 This program attempts to find all possible partner non-profit organizations given a set of "seed URLs".
 These URLs will serve as input for the program.
@@ -55,7 +57,7 @@ have been poor.
 }
 ```
 
-A history will be kept in the local directory under ``debug/``.
+All output and a history will be kept in the local directory under ``debug/``.
 
 **Notes:** 
 

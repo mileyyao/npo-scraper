@@ -7,18 +7,28 @@ import json
 import pyap
 import re
 
+
 partner_file = 'partner.json'
 
 class OrgInfoCrawler(scrapy.Spider):
 
     name = 'infocrawler'
 
-    def __init__(self, **kwargs):
+    def __init__(self, filename=None, **kwargs):
 
-        # load in partner file, urls are keys
-        f = open(partner_file, 'r')
-        self.data = json.load(f)
-        self.urls = [k for k in self.data.keys()]
+        # default to loading partner_file if .json is found
+        ext = str(filename).split('.')[-1]
+
+        # load in urls from plain text file
+        if ext != 'json':
+            self.data = {}
+            self.urls = utils.get_urls(filename)
+
+        # load in generated output from main.py
+        else:
+            f = open(partner_file, 'r')
+            self.data = json.load(f)
+            self.urls = [k for k in self.data.keys()]
         super().__init__(**kwargs)
 
     # some sites were taking forever
@@ -46,6 +56,15 @@ class OrgInfoCrawler(scrapy.Spider):
         # get all text on page as plain text
         text = ''.join(response.xpath('//body//text()').extract())
         key = response.meta.get('key')
+
+        # url might not be here if usr is passing in plain file
+        if key not in self.data:
+            self.data[key] = {
+                'url': key,
+                'name': [],
+                'phone': [],
+                'address': []
+            }
 
         # parse out address
         for addr in pyap.parse(text, country='US'):
