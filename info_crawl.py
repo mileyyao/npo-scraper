@@ -14,15 +14,16 @@ class OrgInfoCrawler(scrapy.Spider):
 
     name = 'infocrawler'
 
-    def __init__(self, filename=None, **kwargs):
+    def __init__(self, filename='partner_urls.txt', outfile = None, **kwargs):
 
         # default to loading partner_file if .json is found
         ext = str(filename).split('.')[-1]
-
+        self.outfile = outfile
         # load in urls from plain text file
         if ext != 'json':
             self.data = {}
             self.urls = utils.get_urls(filename)
+
 
         # load in generated output from main.py
         else:
@@ -78,6 +79,5 @@ class OrgInfoCrawler(scrapy.Spider):
     # write out new data
     def spider_closed(self):
         print('closing')
-        with open('partner.json', 'w') as f:
+        with open(f'{self.outfile}', 'w') as f:
             f.write(json.dumps(self.data, indent=4))
-
